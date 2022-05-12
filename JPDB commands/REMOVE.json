@@ -1,0 +1,64 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "9b33c2a6-ec8b-4f84-9054-db0b08f57300",
+        "name": "JPDB"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Service",
+            "id": "c8d6dd35-dd43-4fc5-8ee8-ad52d2bdbf31",
+            "name": "CRUD"
+          },
+          "children": [
+            {
+              "entity": {
+                "bodyEvaluationDisabled": true,
+                "type": "Request",
+                "method": {
+                  "requestBody": true,
+                  "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                  "name": "POST"
+                },
+                "body": {
+                  "formBody": {
+                    "overrideContentType": true,
+                    "encoding": "application/x-www-form-urlencoded",
+                    "items": []
+                  },
+                  "bodyType": "Text",
+                  "textBody": "{\n  \"token\": \"90939064|-31949282548579325|90946310\",\n  \"cmd\": \"REMOVE\",\n  \"dbName\": \"Employee\",\n  \"rel\": \"Emp-Rel\",\n\"record\":2,\n}"
+                },
+                "uri": {
+                  "query": {
+                    "delimiter": "&",
+                    "items": []
+                  },
+                  "scheme": {
+                    "name": "http",
+                    "version": "V11"
+                  },
+                  "host": "api.login2explore.com:5577",
+                  "path": "/api/iml"
+                },
+                "id": "e6598a56-94f2-49d1-8a32-92d9f07257e8",
+                "name": "DELETE",
+                "headers": [
+                  {
+                    "enabled": true,
+                    "name": "Content-Type",
+                    "value": "application/json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

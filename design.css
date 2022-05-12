@@ -1,0 +1,57 @@
+#empSave{
+	display:inline-block;
+	overflow:hidden;
+	
+}
+
+#empSave:hover{
+	box-shadow:0 0 2px #2196f0,0 0 2px #2196f0,0 0 2px #2196f0;
+	font-weight:bold;
+	
+}
+
+.temp{
+	text-align:center;
+}
+
+body{
+	background: linear-gradient(to right, #2B6CE4, #0D1C39);
+	color:#330000;
+}
+
+form{
+	border-style: groove;
+	border-color:#F2972E;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.container{
+	margin-top:80px;
+	margin-bottom:auto;
+	padding-bottom:10px;
+}
+
+.form-control{
+	background:#d9dfe1;
+}
+
+
+#head1{
+	font-family: 'Diplomata SC';
+	font-size: 40px;
+	text-align:center;
+	color:#be9063;
+}
+
+#e{
+	background-color:#e15c2c;
+	margin-top:180px;
+	text-align:center;
+}
+#end{
+	color:#330000;
+}
+
